@@ -1,0 +1,21 @@
+.sidebar-container{
+    background-image: linear-gradient(to top, rgb(165, 17, 165),rgb(125, 97, 224),rgb(221, 134, 221));
+    height: 100%;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 7rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar-icon{
+    color: var(--white-color);
+    cursor: pointer;
+}
+.sidebar-icon:hover{
+    color: var(--black-color);
+}

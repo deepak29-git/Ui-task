@@ -1,0 +1,100 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 290px 260px 290px;
+  margin: 0 6rem;
+  gap: 1rem;
+}
+
+.two {
+  background-color: var(--grey-color);
+  border-radius: 10px;
+  height: 435px;
+}
+
+.box {
+  grid-row: 1 / 2;
+  height: 100px;
+  background-color: var(--grey-color);
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+.one {
+  grid-column: 1 / 2;
+}
+.two {
+  grid-column: 2 / 4;
+}
+
+.three {
+  grid-column: 4 / 5;
+}
+
+.balance-box {
+  height: 100px;
+  background-color: var(--grey-color);
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.percentage-box {
+  height: 320px;
+  border-radius: 10px;
+  background-color: var(--grey-color);
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.percentage-bar{
+  height: 5px;
+  width: 25px;
+  margin-bottom: 5px;
+  background-color: rgb(240, 127, 61);
+}
+.top-most-title{
+  margin-bottom: 2rem;
+}
+
+.greetings {
+  color: var(--purple-color);
+  margin: 1.5rem 6rem;
+}
+
+.user-name {
+  color: var(--white-color);
+  font-size: 20px;
+}
+
+.grey-text {
+  color: var(--light-grey);
+}
+.white-text {
+  color: var(--white-color);
+}
+
+.price-container{
+  margin-left: auto;
+}
+
+.medium-font{
+  font-size: 20px;
+}
+
+.bar-container{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center ;
+}
+
+.blank-bar{
+  
+  background-color: var(--light-grey);
+}

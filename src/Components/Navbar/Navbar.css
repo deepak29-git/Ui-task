@@ -1,0 +1,36 @@
+.header{
+    background-color: var(--black-color);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--white-color);
+    margin: 0 4rem;
+}
+
+.logo-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.user-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-icon{
+    color: var(--red-color);
+}
+
+.title{
+    font-size: 1.3rem;
+}
+.logo-img{
+    height: 5rem;
+    max-width: 5rem;
+    object-fit: contain;
+}
+
