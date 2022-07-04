@@ -1,6 +1,6 @@
 // import { UseAxios } from "../../api-data/data";
 import { Avatar } from "@mui/material";
-import { deepOrange } from "@mui/material/colors";
+import { deepOrange,purple,red,pink } from "@mui/material/colors";
 import "../Main/Main.css";
 import { Statistic } from "../Statistic/Statistic";
 import { RightSidebar } from "../RightSidebar/RightSidebar";
@@ -15,6 +15,7 @@ export const Main = () => {
       name: "Bitcoin",
       price_usd: 1826.25,
       symbol: "₿",
+      bgColor:red[500]
     },
     {
       id_icon: "565464645",
@@ -22,6 +23,7 @@ export const Main = () => {
       name: "Litcoin",
       price_usd: 599.25,
       symbol: "Ł",
+      bgColor:purple[500]
     },
     {
       id_icon: "856657885",
@@ -29,6 +31,7 @@ export const Main = () => {
       name: "Ripple",
       price_usd: 599.25,
       symbol: "X",
+      bgColor:pink[400]
     },
     {
       id_icon: "455554454",
@@ -36,6 +39,7 @@ export const Main = () => {
       name: "Dash",
       price_usd: 599.25,
       symbol: "D",
+      bgColor:deepOrange[500]
     },
   ];
   return (
@@ -47,10 +51,10 @@ export const Main = () => {
       </div>
       <div className="main-container">
         <div className="one">
-          {data.map(({ asset_id, name, price_usd, id_icon, symbol }) => (
+          {data.map(({ asset_id, name, price_usd, id_icon, symbol,bgColor }) => (
             <div key={id_icon} className="box">
               <Avatar
-                sx={{ bgcolor: deepOrange[500] }}
+                sx={{ bgcolor: bgColor }}
                 alt="Remy Sharp"
                 src="/broken-image.jpg"
               >
