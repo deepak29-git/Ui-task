@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="logo-container">
           <img
             className="logo-img"
-            src="https://i.pinimg.com/550x/5b/9d/3a/5b9d3a04c7385c881915399c1a4b6c64.jpg"
+            src="https://www.sabertoothtech.in/static/images/SabertoothLogo.png"
             alt="logo"
           />
           <p className="title">Sabertooth</p>

@@ -4,3 +4,8 @@
 .date-pricker{
     position: relative;
 }
+
+.daterange-picker-parent{
+    display: flex;
+    justify-content: flex-end;
+}
